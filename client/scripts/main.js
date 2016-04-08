@@ -11,7 +11,7 @@
     }
   ]).
 
-  constant('APP_NAME', "Fi Seed").
+  constant('APP_NAME', "Gestión Valor").
   constant('YEAR', new Date().getFullYear()).
   constant('DOMAIN', 'https://github.com/finaldevstudio/fi-seed').
 
