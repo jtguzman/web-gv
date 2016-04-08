@@ -1,7 +1,7 @@
 {
-  "name": "fi-seed",
-  "title": "Fi Seed",
-  "description": "A boilerplate for Node.js + Express applications with MongoDB and AngularJS on the frontend, aka, MEAN.",
+  "name": "web-gv",
+  "title": "Gestion Valor",
+  "description": "Somos personas trabajando con personas.",
   "version": "2.0.0",
   "private": false,
   "license": "MIT",
@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/finaldevstudio/fi-seed.git"
+    "url": "https://github.com/jtguzman/web-gv.git"
   },
   "scripts": {
-    "cluster": "NODE_PATH=. NODE_ENV=production pm2 start server -i 0 --name fi-seed",
-    "fork": "NODE_PATH=. NODE_ENV=production pm2 start server --name fi-seed",
+    "cluster": "NODE_PATH=. NODE_ENV=production pm2 start server -i 0 --name web-gv",
+    "fork": "NODE_PATH=. NODE_ENV=production pm2 start server --name web-gv",
     "reinstall": "rm -Rf node_modules && npm install",
     "dev": "NODE_PATH=. NODE_ENV=development DEBUG=app:* node server",
     "start": "NODE_PATH=. NODE_ENV=production node server"
